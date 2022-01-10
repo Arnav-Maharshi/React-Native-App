@@ -2,11 +2,13 @@ import React, {useState}from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 import ColorCounter from "../components/ColorCounter";
 
+const COLOR_INCREASER= 10;
+
 const SquareScreen = () =>{
     const [red, setRed] = useState(0);
     const [green, setGreen] = useState(0);
     const [blue, setBlue] = useState(0);
-    const COLOR_INCREASER= 10;
+
 
     const setColor =(color, change) => {
         // color === 'red', 'green', 'blue'

@@ -34,6 +34,11 @@ const HomeScreen = ({navigation}) => { //We are pulling off only the navigation 
         onPress={() => navigation.navigate('Square')} 
         title="Go to Square Demo" 
       />
+
+      <Button 
+        onPress={() => navigation.navigate('Text')} 
+        title="Go to Text Input Demo" 
+      />
       
     </View>
     //Touchable Opacity is not a self-closing tag like Button
